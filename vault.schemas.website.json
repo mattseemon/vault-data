@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mattseemon.github.io/vault-data/vault.schemas.website.json",
+  "title": "Website",
+  "description": "Website Credentials",
+  "type": "object"
+  "properties": {
+    "username": {
+      "description": "Username used by the user to login",
+      "type": "string"
+    },
+    "password": {
+      "description": "Password used by the user to login",
+      "type": "string"
+    },
+    "url": {
+      "description": "Url address to website",
+      "type": "string"
+    },
+    "notes": {
+      "description": "Additional Notes",
+      "type": "string"
+    }
+  },
+  "required": [ "username", "password", "url", "notes" ]
+}
