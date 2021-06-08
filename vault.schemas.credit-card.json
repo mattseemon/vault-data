@@ -14,11 +14,11 @@
       "type": "string"
     },
     "expiryDate": {
-      "description": "Credit expriy date",
+      "description": "Card expriy date",
       "type": "string"
     },
     "cvv": {
-      "description": "CVV Number",
+      "description": "Card CVV number",
       "type": "string"
     }
   },
