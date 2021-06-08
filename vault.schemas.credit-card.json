@@ -20,6 +20,10 @@
     "cvv": {
       "description": "Card CVV number",
       "type": "string"
+    },
+    "notes": {
+      "description": "Additional notes",
+      "type": "string"
     }
   },
   "required": [ "cardNumber", "name", "expiryDate", "cvv" ]
