@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mattseemon.github.io/vault-data/vault.schemas.credit-card.json",
+  "title": "Credit Card",
+  "description": "Credit Card",
+  "type": "object"
+  "properties": {
+    "cardNumber": {
+      "description": "Credit card number",
+      "type": "string"
+    },
+    "name": {
+      "description": "Card holder name",
+      "type": "string"
+    },
+    "expiryDate": {
+      "description": "Credit expriy date",
+      "type": "string"
+    },
+    "cvv": {
+      "description": "CVV Number",
+      "type": "string"
+    }
+  },
+  "required": [ "cardNumber", "name", "expiryDate", "cvv" ]
+}
